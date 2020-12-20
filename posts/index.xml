@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ExampleSite</title>
+    <link>https://examplesite.com/posts/</link>
+    <description>Recent content in Posts on ExampleSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 20 Dec 2020 20:52:58 +0100</lastBuildDate><atom:link href="https://examplesite.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://examplesite.com/posts/test/</link>
+      <pubDate>Sun, 20 Dec 2020 20:52:58 +0100</pubDate>
+      
+      <guid>https://examplesite.com/posts/test/</guid>
+      <description>Hello World! This is some rust kod:
+#[derive(Default, PartialEq, Eq, Hash, Copy, Clone, Debug)] struct Vector4 { x: i32, y: i32, z: i32, w: i32, } impl Vector4 { fn new(x: i32, y: i32, z: i32, w: i32) -&amp;gt; Self { Self { x, y, z, w } } } These Are Some Headings </description>
+    </item>
+    
+  </channel>
+</rss>
