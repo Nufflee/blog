@@ -16,7 +16,7 @@ You can also find me on [{{< social_icon "twitter" >}} Twitter](https://twitter.
 For the uninitiated, the idea of BUIDL Grants is best summarized by the following sentence:
 > We pay zoomers to stop tweeting and BUIDL.
 
-In other words, it is an incentive for zoomers like me to stop tweeting for a week and buidl (yes, I know, that *is* the right spelling) something instead, organized by [@atroyn](https://twitter.com/atroyn).
+Essentially, it is an incentive for [zoomers](https://en.wikipedia.org/wiki/Generation_Z) like me to stop tweeting for a week and buidl (yes, I know, that *is* the right spelling) something instead, organized by [@atroyn](https://twitter.com/atroyn).
 
 ## [Advent of Code](https://adventofcode.com/)
 
