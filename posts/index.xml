@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ExampleSite</title>
+    <title>Posts on Nufflee&#39;s Blog</title>
     <link>https://nufflee.github.io/blog/posts/</link>
-    <description>Recent content in Posts on ExampleSite</description>
+    <description>Recent content in Posts on Nufflee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Dec 2020 20:52:58 +0100</lastBuildDate><atom:link href="https://nufflee.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2020 19:47:51 +0100</lastBuildDate><atom:link href="https://nufflee.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://nufflee.github.io/blog/posts/test/</link>
-      <pubDate>Sun, 20 Dec 2020 20:52:58 +0100</pubDate>
+      <title>BUIDL Show &amp; Tell - Advent of Code</title>
+      <link>https://nufflee.github.io/blog/posts/buidl/</link>
+      <pubDate>Sun, 20 Dec 2020 19:47:51 +0100</pubDate>
       
-      <guid>https://nufflee.github.io/blog/posts/test/</guid>
-      <description>Hello World! This is some rust kod:
-#[derive(Default, PartialEq, Eq, Hash, Copy, Clone, Debug)] struct Vector4 { x: i32, y: i32, z: i32, w: i32, } impl Vector4 { fn new(x: i32, y: i32, z: i32, w: i32) -&amp;gt; Self { Self { x, y, z, w } } } These Are Some Headings </description>
+      <guid>https://nufflee.github.io/blog/posts/buidl/</guid>
+      <description>Introduction Hi 👋! I&amp;rsquo;m Nufflee, a 17 yo zoome- I mean programmer from Croatia, and this is my BUIDL week writeup (show &amp;amp; tell). For my BUIDL week, I decided to focus on my participation in the Advent of Code and another smol project.
+You can also find me on   Twitter,   GitHub, or   Twitch.
+BUIDL Grants For the uninitiated, the idea of BUIDL Grants is best summarized by the following sentence:</description>
     </item>
     
   </channel>

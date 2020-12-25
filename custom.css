@@ -1,0 +1,42 @@
+.post-content figure > figcaption {
+  color: var(--content);
+  font-size: 14px;
+  font-weight: normal;
+  margin: 4px 0;
+}
+
+.post-content blockquote > p {
+  font-style: italic;
+}
+
+.centered-image img {
+  margin: auto;
+}
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* HACK: This is only here so that links with a social icon don't get broken across multiple lines */
+.post-content p a {
+  display: inline-block;
+}
+
+.aoc-stars-container {
+  display: inline-block; 
+  font-weight: bold;
+  font-family: 'Source Code Pro';
+}
+
+.aoc-stars-container > span {
+  color: var(--star-color); 
+  text-shadow: 0 0 5px var(--star-color);
+}
+
+:root {
+  --main-width: 840px;
+}
