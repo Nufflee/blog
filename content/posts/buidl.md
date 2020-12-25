@@ -72,7 +72,7 @@ Both parts required interpreting these commands, although with different rules, 
 The solution is pretty basic but there are a few interesting things about it.
 
 #### Integer to Enum conversion in Rust
-Rust may be a modern language that comes with a lot of batteries but this is not one of them. Converting an integer to an enum value requires several external dependencies, specifically [`num-derive`](https://crates.io/crates/num-derive) and [`num-traits`](https://crates.io/crates/num-traits). Even after that, I still had to derive an interface and use `FromPrimitive::from_i32<TEnum>(i32) -> TEnum` (not the actual function definition) for the conversion.
+Rust may be a modern language that comes with a lot of batteries but this is not one of them. Converting an integer to an enum value requires several external dependencies, specifically [`num-derive`](https://crates.io/crates/num-derive) and [`num-traits`](https://crates.io/crates/num-traits). Even after that, I still had to derive a trait and use `FromPrimitive::from_i32<TEnum>(i32) -> TEnum` (not the actual function definition) for the conversion.
 
 #### 2D [Rotation matrices](https://en.wikipedia.org/wiki/Rotation_matrices)
 Part 2 of the problem required us to rotate a 2D vector around a point. Even though rotation matrices weren't exactly necessary since all rotations were multiples of $90°$ ($\frac{\pi}{2}$) and could be achieved by inverting and swapping coordinates, I was excited to finally use them in a real world application. [Here](https://github.com/Nufflee/AdventOfCode-2020/blob/a14581c2022df869df0c1e4728d4d39b99cb3715/day12/src/part2.rs#L15-L22)'s the piece of code in question:
