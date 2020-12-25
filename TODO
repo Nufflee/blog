@@ -1,0 +1,51 @@
+✔ Address all other TODOs in the .md file... @done(20-12-25 02:37)
+✔ Reread everything @done(20-12-25 03:30)
+  ☐ Spellchecker
+☐ PUBLISH BABY
+
+☐ Think about problem header styling
+  1. Something like this: https://cdn.discordapp.com/attachments/713444997688590366/791657314335457280/unknown.png
+  2. Make a SVG icon for AoC. Shouldn't be too hard as it's just a star
+☐ How to get country emojis working on Windows
+  Like 🇭🇷
+  Maybe this could be helpful https://adityatelange.github.io/hugo-PaperMod/posts/emoji-support/
+☐ Improve Lighthouse score and optimize in general
+☐ Link to "edit this page on GitHub"
+☐ Add README.md to AoC repo
+
+✔ Make a warning block shortcode @done(20-12-25 02:03)
+  Like this https://learn.netlify.app/en/shortcodes/notice/
+✔ Maybe increase content width? @done(20-12-25 01:40)
+✘ Change higlight.js theme @cancelled(20-12-24 21:15)
+✔ Make all links open in new tabs @done(20-12-24 21:12)
+✔ Open source camera-tof @done(20-12-24 21:03)
+✔ Only show h2 and higher in the ToC @done(20-12-24 20:38)
+✔ Need to update all descriptions and titles in `config.yml` @done(20-12-24 20:33)
+✔ Default to dark theme @done(20-12-24 18:34)
+  Because when JS is disabled it's impossible to switch the theme, and light is currently the default
+✔ Add number of stars I got for each day in the title @done(20-12-23 01:18)
+✔ AoC titles are broken in ToC @done(20-12-23 01:18)
+  ✔ They link to the AoC problem instead of the anchor @done(20-12-23 01:18)
+  ✘ Adding stars makes them not show up at all @cancelled(20-12-23 01:18)
+
+Backlog:
+  ☐ Ugly alteration between white and grey
+    For example on LaTeX underline: https://cdn.discordapp.com/attachments/630161288538095626/790550034688901140/unknown.png
+    Dirty fix: `* { --content: #bbbbbb !important }`
+  ☐ Make a more ergonomic figure shortcode
+    ☐ With simple centering
+  ☐ Make margin shortcode
+    Because adding them in Markdown is a pain
+  ☐ Put this on nufflee.com, somehow
+  ☐ Use new center align method instead of my custom shortcode
+    https://github.com/adityatelange/hugo-PaperMod/commit/a36d0452145c32ef41e7b9d83246dc6327fdfd01
+  ☐ Googl Anal ticks? Maybe?
+    Too much work for right now.
+    ☐ Apparently I don't even need consent, I just need to link to the privacy policy somewhere
+      https://termly.io/resources/articles/google-analytics-privacy-policy/
+  ☐ Can I make heading anchor links not include shortcodes (aoc_stars)
+    Shortcodes aren't formatted very well in them: http://localhost:1313/blog/posts/buidl/#advent-of-code-day-12----rain-risk-hahahugoshortcode-s3-hbhb
+    Doesn't seem like there's a good way to do this...
+  ☐ How to embed Twitch/BTTV/FFZ emotes like regular emojis
+    Didn't have time and this is probably of very low value.
+  ☐ Move inline styles out of `warning.html`

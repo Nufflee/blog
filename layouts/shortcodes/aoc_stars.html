@@ -1,0 +1,19 @@
+{{- .Scratch.Set "solvedCount" (.Get "solvedCount" | default 0) -}}
+{{- .Scratch.Set "unsolvedCount" (.Get "unsolvedCount" | default 0) -}}
+
+<span class="aoc-stars-container">
+  {{- if ne (.Scratch.Get "solvedCount") 0 -}}
+  <span style="--star-color: #ffff66">
+    {{- range seq (.Scratch.Get "solvedCount") -}}
+    *
+    {{- end -}}
+  </span>
+  {{- end -}}
+  {{- if ne (.Scratch.Get "unsolvedCount") 0 -}}
+  <span style="--star-color: #8b8b8b">
+    {{- range seq (.Scratch.Get "unsolvedCount") -}}
+    *
+    {{- end -}}
+  </span>
+  {{- end -}}
+</span>
