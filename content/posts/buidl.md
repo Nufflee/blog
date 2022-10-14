@@ -1,7 +1,7 @@
 ---
 title: "BUIDL Show & Tell - Advent of Code"
 date: 2020-12-20T19:47:51+01:00
-description: My BUIDL Grants writeup on the Advent of Code
+summary: My BUIDL Grants writeup on the Advent of Code
 showToc: true
 math: true
 ---
