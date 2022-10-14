@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Nufflee&#39;s Blog</title>
-    <link>https://nufflee.github.io/blog/</link>
+    <link>https://nufflee.com/</link>
     <description>Recent content on Nufflee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Dec 2020 19:47:51 +0100</lastBuildDate><atom:link href="https://nufflee.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2020 19:47:51 +0100</lastBuildDate><atom:link href="https://nufflee.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BUIDL Show &amp; Tell - Advent of Code</title>
-      <link>https://nufflee.github.io/blog/posts/buidl/</link>
+      <link>https://nufflee.com/posts/buidl/</link>
       <pubDate>Sun, 20 Dec 2020 19:47:51 +0100</pubDate>
       
-      <guid>https://nufflee.github.io/blog/posts/buidl/</guid>
-      <description>Introduction Hi 👋! I&amp;rsquo;m Nufflee, a 17 yo zoome- I mean programmer from Croatia, and this is my BUIDL week writeup (show &amp;amp; tell). For my BUIDL week, I decided to focus on my participation in the Advent of Code and another smol project.
-You can also find me on   Twitter,   GitHub, or   Twitch.
-BUIDL Grants For the uninitiated, the idea of BUIDL Grants is best summarized by the following sentence:</description>
+      <guid>https://nufflee.com/posts/buidl/</guid>
+      <description>My BUIDL Grants writeup on the Advent of Code</description>
     </item>
     
   </channel>
