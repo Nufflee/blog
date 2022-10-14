@@ -7,7 +7,7 @@ math: true
 ---
 
 # Introduction
-Hi 👋! I'm Nufflee, a 17 yo zoome- I mean programmer from Croatia, and this is my BUIDL week writeup (show & tell). For my BUIDL week, I decided to focus on my participation in the Advent of Code and another smol project. 
+Hi 👋! I'm Nufflee, a 17 yo zoome- I mean programmer from Croatia, and this is my BUIDL week writeup (show & tell). For my BUIDL week, I decided to focus on my participation in the Advent of Code and another smol project.
 
 You can also find me on [{{< social_icon "twitter" >}} Twitter](https://twitter.com/Nufflee), [{{< social_icon "github" >}} GitHub](https://github.com/nufflee/), or [{{< social_icon "twitch" >}} Twitch](https://www.twitch.tv/nuffleee).
 
@@ -20,7 +20,7 @@ Essentially, it is an incentive for [zoomers](https://en.wikipedia.org/wiki/Gene
 
 ## [Advent of Code](https://adventofcode.com/)
 
-Advent of Code is an advent calendar of 25 programming problems of increasing difficulty. The problems are two-part, where the second part is harder but builds on top of the first one. Solving each part grants you one gold star ({{< aoc_stars solvedCount=1 >}}), for a total of 50 {{< aoc_stars solvedCount=1 >}} by Christmas. 
+Advent of Code is an advent calendar of 25 programming problems of increasing difficulty. The problems are two-part, where the second part is harder but builds on top of the first one. Solving each part grants you one gold star ({{< aoc_stars solvedCount=1 >}}), for a total of 50 {{< aoc_stars solvedCount=1 >}} by Christmas.
 
 They involve everything from basic brute forcing to dynamic programming, graphs, and trees to the [Chinese remainder theorem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem).
 
@@ -31,13 +31,13 @@ This post **does** contain Advent of Code spoilers for days 12 to 18 and may con
 ## Goals
 
 Going into Advent of Code, I had multiple goals:
-- Mainly, spend more time practicing [Rust](https://www.rust-lang.org/) as I've been wanting to learn it for a while 
+- Mainly, spend more time practicing [Rust](https://www.rust-lang.org/) as I've been wanting to learn it for a while
 - Learn about various computer science concepts like time and memory complexity, trees and graphs, and, apparently, dynamic programming
-- See how long I can stick with the daily schedule since I've always had issues with finishing projects 
+- See how long I can stick with the daily schedule since I've always had issues with finishing projects
 
 ---
 
-I [started the week on December 11th](https://twitter.com/Nufflee/status/1337512892464291847), the 11th day of Advent of Code, and finished on December 18th. 
+I [started the week on December 11th](https://twitter.com/Nufflee/status/1337512892464291847), the 11th day of Advent of Code, and finished on December 18th.
 
 Although I didn't solve all of the problems, below are the breakdowns of what I did each day and how I approached them.
 
@@ -54,7 +54,7 @@ Although I didn't solve all of the problems, below are the breakdowns of what I 
 [{{< social_icon "github" >}} Full Solution on GitHub](https://github.com/Nufflee/AdventOfCode-2020/tree/master/day12) | [{{< social_icon "twitch" >}} VOD on Twitch](https://www.twitch.tv/videos/845334812)
 
 ### [Problem](https://adventofcode.com/2020/day/12)
-My BUIDL week started with a fairly straightforward problem, as expected for day 12. The problem revolved around parsing and interpreting a list of commands for a ship navigation system. 
+My BUIDL week started with a fairly straightforward problem, as expected for day 12. The problem revolved around parsing and interpreting a list of commands for a ship navigation system.
 
 There were 7 possible commands: North (`N`), South (`S`), West (`W`), East (`E`), Right (`R`), Left (`L`) and Forward (`F`) followed by a number. For example:
 
@@ -89,7 +89,7 @@ position = Pos(
 
 ... or in math terms (because I didn't set up [MathJax](https://www.mathjax.org/) for nothing, right):
 $$
-\text{position} = \begin{bmatrix} 
+\text{position} = \begin{bmatrix}
   x\ \cos(\text{angle}) - y\ \sin(\text{angle}) \cr
   x\ \sin(\text{angle}) + y\ \cos(\text{angle}) \cr
 \end{bmatrix}
@@ -101,18 +101,18 @@ $$
 [{{< social_icon "github" >}} Full Solution on GitHub](https://github.com/Nufflee/AdventOfCode-2020/tree/master/day13) | [{{< social_icon "twitch" >}} VOD on Twitch](https://www.twitch.tv/videos/845369228)
 
 ### [Problem](https://adventofcode.com/2020/day/13)
-The 13th problem was a special one (notice the missing {{< aoc_stars solvedCount=1 >}}). 
+The 13th problem was a special one (notice the missing {{< aoc_stars solvedCount=1 >}}).
 
-In part 1 we had to, given a bus departure schedule, determine which bus departs next after a given timestamp. 
+In part 1 we had to, given a bus departure schedule, determine which bus departs next after a given timestamp.
 
-Part 2 was a lot more interesting, using the same schedule, we had to find the earliest timestamp at which each bus departs exactly 1 minute/time step after the previous one.  
+Part 2 was a lot more interesting, using the same schedule, we had to find the earliest timestamp at which each bus departs exactly 1 minute/time step after the previous one.
 
 ### Solution
 #### Part 1
 This part was very straightforward as it didn't even require brute forcing and it was possible to come up with a [simple mathematical solution](https://github.com/Nufflee/AdventOfCode-2020/blob/a14581c2022df869df0c1e4728d4d39b99cb3715/day13/src/part1.rs#L8-L13).
 
 #### Part 2
-Unlike part 1, this one wasn't straightforward at all. I spent several hours malding[^1] trying to implement a brute force solution, but that failed horribly. My idea was to iteratively advance time and check if the required condition is met every iteration. This would work on a small dataset but would take multiple days on the actual dataset. 
+Unlike part 1, this one wasn't straightforward at all. I spent several hours malding[^1] trying to implement a brute force solution, but that failed horribly. My idea was to iteratively advance time and check if the required condition is met every iteration. This would work on a small dataset but would take multiple days on the actual dataset.
 
 People have come up with various clever tricks, such as advancing time by a timestamp bigger than 1, but the expected solution involved the [Chinese ~~clown~~ remainder theorem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem).
 
@@ -156,7 +156,7 @@ Alongside the Advent of Code, I started another smol project. I got an Android p
 
 First, I enumerated all of the cameras on my phone to find out that the ToF one supports two modes, `640x480` at 5 FPS and `320x240` at 20 FPS. To start receiving frames from the camera, I of course had to jump through multiple hoops of Java ~~BS~~ abstractions, factories, and builders but once that was done, I was presented with a ~0.05 FPS depth map slideshow. That's when I realized how much Java/JVM suck and the amount of overhead there is to calling native methods in big loops. Having fixed that by lifting all native calls outside of the pixel-by-pixel loop, this is what I ended up with:
 
-{{< video src="/blog/tof-camera1.webm" >}}
+{{< video src="/tof-camera1.webm" >}}
 
 # Day 4
 ## Advent of Code Day 15 -- Rambunctious Recitation ({{< aoc_stars solvedCount=2 >}})
@@ -175,7 +175,7 @@ Part 1 required us to calculate the `2020th` number of this sequence while part 
 For this part, I implemented a very simple brute force solution that worked right away.
 
 #### Part 2
-The description of part 2 immediately had me intimidated as I imagined that the old brute force solution would surely not work... but to my greatest surprise, it worked quite well, taking only a few seconds to complete. 
+The description of part 2 immediately had me intimidated as I imagined that the old brute force solution would surely not work... but to my greatest surprise, it worked quite well, taking only a few seconds to complete.
 
 Having solved this problem in record time, I was extremely underwhelmed and decided to improve upon my solution. The first improvement was to, instead of linearly searching the list of all previous numbers, maintain a hash map of each previously seen number and its last index in the sequence. This greatly improved performance by decreasing the lookup time complexity from `O(n)` to `O(1)`. Quickly, I also realized that I don't even need to keep a list of all numbers in the sequence as the generation of the next one always only depends on the previous number (and the hash map). Only keeping track of one number instead of up to 30 million of them greatly reduced the memory footprint too.
 
@@ -185,7 +185,7 @@ Having solved this problem in record time, I was extremely underwhelmed and deci
 
 Spending little time on the Advent of Code problem, I decided to do a bit more work on this project. I did some more profiling and optimization and managed to get the time of processing a single `640x480` frame down to 60 ms on average, much less than 200 ms it takes to capture a new frame at 5 FPS. While that is great, I missed one critical detail -- the app **consumed** my battery. It [used 28.2% of it](https://cdn.discordapp.com/attachments/773886565449334785/788465098419208222/SmartSelect_20201215-185824_Device_care.jpg) in just 2.5h, ~11% per hour! I assume this is mainly because doing camera things, especially with lasers, is inherently power-hungry, but there are things that can be done to alleviate this. I also added a few more UI elements that can be seen here:
 
-{{< video src="/blog/tof-camera2.webm" >}}
+{{< video src="/tof-camera2.webm" >}}
 
 The app is currently obviously very basic but there are many things I'd like to add to it in the future:
 - Firstly, to address excessive power usage, detecting when the user goes idle and disabling the camera should help a lot, together with more efficient resource usage by using C++
@@ -211,7 +211,7 @@ As in all problems so far, it was possible to solve part 1 with a simple brute f
 #### Part 2
 Part 2, on the other hand, was more interesting, although not due to it being an interesting problem, but due to the description being bad. I was able to solve all problems up until this point in one day but this one took two and caused me to fall behind. I first implemented a simple iterative solution, but due to the nature of hash maps, it was always returning a different result so it wasn't hard to notice that something was off. Using this method, there were multiple solutions because each field matched multiple different validator rules. After a fair amount of time, I couldn't figure out how to properly handle this conflict resolution and resorted to [the subreddit](https://www.reddit.com/r/adventofcode/) for hints.
 
-One thing to notice was that there is always one field which matches only one validator. The correct algorithm for doing this conflict resolution was to find this one field, remove it from the list of candidates for other validators and add it into the final validator to field mapping to achieve a 1 validator to 1 field mapping instead of 1 validator to many fields. I still don't understand how I was supposed to come up with this on my own, but once I was aware of this pattern, it didn't take much time to come up with the solution. 
+One thing to notice was that there is always one field which matches only one validator. The correct algorithm for doing this conflict resolution was to find this one field, remove it from the list of candidates for other validators and add it into the final validator to field mapping to achieve a 1 validator to 1 field mapping instead of 1 validator to many fields. I still don't understand how I was supposed to come up with this on my own, but once I was aware of this pattern, it didn't take much time to come up with the solution.
 
 # Day 6
 ## Advent of Code Day 17 -- Conway Cubes ({{< aoc_stars solvedCount=2 >}})

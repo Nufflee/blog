@@ -26,9 +26,9 @@ params:
   disableSpecial1stPost: false
 
   assets:
-    favicon: /blog/favicon.png
-    favicon32x32: /blog/favicon.png
-    favicon16x16: /blog/favicon.png
+    favicon: /favicon.png
+    favicon32x32: /favicon.png
+    favicon16x16: /favicon.png
 
   label:
     text: Home
