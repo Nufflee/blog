@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nufflee.com/</loc>
+    <loc>https://nufflee.com/blog/</loc>
     <lastmod>2020-12-20T19:47:51+01:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://nufflee.com/posts/buidl/</loc>
+    <loc>https://nufflee.com/blog/posts/buidl/</loc>
     <lastmod>2020-12-20T19:47:51+01:00</lastmod>
   </url><url>
-    <loc>https://nufflee.com/posts/</loc>
+    <loc>https://nufflee.com/blog/posts/</loc>
     <lastmod>2020-12-20T19:47:51+01:00</lastmod>
   </url><url>
-    <loc>https://nufflee.com/categories/</loc>
+    <loc>https://nufflee.com/blog/categories/</loc>
   </url><url>
-    <loc>https://nufflee.com/tags/</loc>
+    <loc>https://nufflee.com/blog/tags/</loc>
   </url>
 </urlset>
