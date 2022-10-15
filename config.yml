@@ -18,8 +18,8 @@ params:
   description: "Nufflee's Blog about programming, electronics, FPGAs, SDRs and more"
   author: Nufflee
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  showReadingTime: true
+  showShareButtons: true
   comments: false
   defaultTheme: dark
   disableThemeToggle: false
@@ -36,8 +36,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: Hi there 👋
-    Content: I’m Nufflee, a 17 yo programmer from Croatia and this is my epic (soon-to-be) blog about programming, electronics, FPGAs, SDRs and more!
+    title: Hi there 👋
+    content: I'm Nufflee, a 19 yo programmer from Croatia and this is my epic blog about programming, electronics, mathematics and more!
 
   socialIcons:
     - name: twitter
