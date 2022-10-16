@@ -156,7 +156,7 @@ Alongside the Advent of Code, I started another smol project. I got an Android p
 
 First, I enumerated all of the cameras on my phone to find out that the ToF one supports two modes, `640x480` at 5 FPS and `320x240` at 20 FPS. To start receiving frames from the camera, I of course had to jump through multiple hoops of Java ~~BS~~ abstractions, factories, and builders but once that was done, I was presented with a ~0.05 FPS depth map slideshow. That's when I realized how much Java/JVM suck and the amount of overhead there is to calling native methods in big loops. Having fixed that by lifting all native calls outside of the pixel-by-pixel loop, this is what I ended up with:
 
-{{< video src="/tof-camera1.webm" >}}
+{{< video src="tof-camera1.webm" >}}
 
 # Day 4
 ## Advent of Code Day 15 -- Rambunctious Recitation ({{< aoc_stars solvedCount=2 >}})
@@ -185,7 +185,7 @@ Having solved this problem in record time, I was extremely underwhelmed and deci
 
 Spending little time on the Advent of Code problem, I decided to do a bit more work on this project. I did some more profiling and optimization and managed to get the time of processing a single `640x480` frame down to 60 ms on average, much less than 200 ms it takes to capture a new frame at 5 FPS. While that is great, I missed one critical detail -- the app **consumed** my battery. It [used 28.2% of it](https://cdn.discordapp.com/attachments/773886565449334785/788465098419208222/SmartSelect_20201215-185824_Device_care.jpg) in just 2.5h, ~11% per hour! I assume this is mainly because doing camera things, especially with lasers, is inherently power-hungry, but there are things that can be done to alleviate this. I also added a few more UI elements that can be seen here:
 
-{{< video src="/tof-camera2.webm" >}}
+{{< video src="tof-camera2.webm" >}}
 
 The app is currently obviously very basic but there are many things I'd like to add to it in the future:
 - Firstly, to address excessive power usage, detecting when the user goes idle and disabling the camera should help a lot, together with more efficient resource usage by using C++
