@@ -15,7 +15,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Nufflee's Blog
-  description: "Nufflee's Blog about programming, electronics, FPGAs, SDRs and more"
+  description: "Nufflee's blog about programming, electronics, mathematics and more!"
   author: Nufflee
 
   showReadingTime: true
